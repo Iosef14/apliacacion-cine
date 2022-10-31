@@ -3,9 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": "12.11.1"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon --exect babel-node src/server.js"
+  },
+
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/Iosef14/dwcineplazamadero.git"
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
